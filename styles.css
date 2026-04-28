@@ -11,11 +11,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #e991ca, #2a5298);
 }
 
 .calculator {
-    background:  #1c1c1c;
+    background:  #1a021c;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
@@ -27,8 +27,8 @@ body {
 .display {
     width: 100%;
     height: 70px;
-    background: #000;
-    color: #0f0;
+    background: #502743;
+    color: rgb(227, 212, 221);
     text-align: right;
     font-size: 2rem;
     padding: 10px;
@@ -59,23 +59,23 @@ button:hover {
 }
 
 .btn-number {
-    background: #333;
+    background: #f193e7;
     color: #fff;
 }
 
 .btn-operator {
-    background: #ff9500;
+    background: #441d3e;
     color: #fff;
 }
 
 .btn-equal {
-    background: #28a745;
+    background: #543352;
     color: #fff;
     grid-column: span 2;
 }
 
 .btn-clear {
-    background: #dc3545;
+    background: #db48b1;
     color: #fff;
     grid-column: span 2;
 }
